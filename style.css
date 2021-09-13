@@ -90,14 +90,15 @@ li.menu-link-dpd {
     justify-content: center;
     align-items: center;
     margin: 0;
+    border-bottom: 1px solid #7A7A7A;
 }
 
 #headerBusca input {
     border: 0;
-    border-bottom: 1px solid #7A7A7A;
     color: #7A7A7A;
     font-family: 'Nunito', sans-serif;
     width: 280px;
+    outline: none;
 }
 
 #headerBusca button {
@@ -150,6 +151,7 @@ li.menu-link-dpd {
 
 
 
+
 /* FIM SECTION 1 - SLIDER BANNER */
 
 
@@ -187,7 +189,6 @@ li.menu-link-dpd {
     background-color: #F2F2F2;
     height: 146px;
     width: 100%;
-    left: 0px;
     top: 1012px;
     border-radius: 0px;
     display: flex;
@@ -209,7 +210,10 @@ li.menu-link-dpd {
     width: 280px;
     border: none;
     margin-right: 8px;
+    padding-left: 16px;
+    outline: none;
 }
+
 
 .form button {
     font-family: 'Lato', sans-serif;
@@ -219,9 +223,14 @@ li.menu-link-dpd {
     border-radius: 5px;
     background-color: #E9BF33;
     border: none;
+    color: #FFFFFF;
+    font-family: Lato;
+    font-size: 14px;
+    line-height: 14px;
 }
 
 .form button:hover {
+    opacity: 0.8;
     cursor: pointer;
 }
 
@@ -302,6 +311,7 @@ footer {
 }
 
 .footer-btn button:hover {
+    opacity: 0.8;
     cursor: pointer;
 }
 

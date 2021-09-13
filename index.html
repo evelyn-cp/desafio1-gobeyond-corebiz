@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="splide-2.4.21/dist/css/splide.min.css">
     
 
     <title>Desafio 1 | Go Beyond | Corebiz</title>
@@ -58,15 +59,38 @@
 
     <main>
         <section class="slider1">
-            <div class="banner">
-                
+            
+
+            <div class="splide">
+                <div class="splide__track">
+                    <ul class="splide__list">
+                        <li class="splide__slide" id="slide1">
+        
+                            <table>
+                                <tr>
+                                    <th class="slide1-img1"><img src="assets/images/img-banner1.svg"/></th>
+                                    <th class="slide1-img2"><img src="assets/images/img-banner2.svg"/></th>
+                                </tr>
+                            </table>
+                        </li>
+                        <li class="splide__slide">Slide 02</li>
+                        <li class="splide__slide">Slide 03</li>
+                    </ul>
+                </div>
             </div>
+
+
+            
         </section>
 
         <section class="slider2">
             <div class="products">
                 <h2>Mais Vendidos</h2>
                 <img src="assets/images/img-line-products.svg"/>
+
+
+
+
 
             </div>
         </section>
@@ -113,6 +137,7 @@
 
 
 
-
+    <script src="splide-2.4.21/dist/js/splide.min.js"></script>
+    <script src="script.js"></script>
 </body>
 </html>
