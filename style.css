@@ -1,0 +1,354 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@900&display=swap');
+
+body {
+    margin: 0;
+}
+
+/* HEADER */
+header {
+    margin: 0 8% 0 8%;
+    padding: 31px 0 0 0;
+    height: 80px;
+    text-align: center;
+    background-color: #fff;
+}
+
+.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.logo {
+    width: 135px;
+    height: 49px;
+    left: 348px;
+    top: 20px;
+}
+
+#menu-list {
+    display: flex;
+    list-style: none;
+}
+
+#menu-list li {
+    margin-right: 35px;
+}
+
+#menu-list a {
+    text-decoration: none;
+}
+
+#menu-list li a {
+    color: #333333;
+    font-family: 'Nunito', sans-serif;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 18px;
+    letter-spacing: 0em;
+    text-align: left;
+    text-decoration: none;
+}
+
+li.menu-link-dpd {
+    display: inline-block;
+}
+
+.submenu {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 140px;
+    box-shadow: 0px 6px 10px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.submenu li {
+    color: black;
+    padding: 8px 12px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.submenu li:hover {
+    background-color: #E9BF33;
+}
+
+.menu-link-dpd:hover .submenu {
+    display: block;
+}
+
+
+
+#headerBusca {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+}
+
+#headerBusca input {
+    border: 0;
+    border-bottom: 1px solid #7A7A7A;
+    color: #7A7A7A;
+    font-family: 'Nunito', sans-serif;
+    width: 280px;
+}
+
+#headerBusca button {
+    border: 0;
+    background-color: #fff;
+}
+
+#headerBusca button:hover {
+    cursor: pointer;
+}
+
+
+#headerLogin {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+}
+
+#headerLogin a {
+    color: #7A7A7A;
+    text-align: center;
+    font-family: 'Nunito', sans-serif;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 18px;
+    letter-spacing: 0em;
+    text-align: left;
+    text-decoration: none;
+}
+
+#headerLogin img {
+    text-align: center;
+    margin-right: 6.5px;
+}
+
+#headerCarrinho {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+}
+
+/* FIM HEADER */
+
+
+
+/* SECTION 1 - SLIDER BANNER */
+
+
+
+/* FIM SECTION 1 - SLIDER BANNER */
+
+
+
+/* SECTION 2 - SLIDER PRODUCTS */
+
+.slider2 {
+    margin: 0 8% 0 8%;
+}
+
+.products h2 {
+    height: 28px;
+    width: 138px;
+    left: 380px;
+    top: 536px;
+    border-radius: nullpx;
+    font-family: Nunito;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 27px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin-bottom: 0;
+}
+
+/* FIM SECTION 2 - SLIDER PRODUCTS */
+
+
+
+/* SECTION 3 - FORM */
+.form {
+    font-family: 'Lato', sans-serif;
+    font-weight: 700px;
+    background-color: #F2F2F2;
+    height: 146px;
+    width: 100%;
+    left: 0px;
+    top: 1012px;
+    border-radius: 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.form h2 {
+    margin: 0 0 16px 0;
+}
+
+.form input {
+    font-family: 'Lato', sans-serif;
+    font-weight: 700px;
+    background: #FFFFFF;
+    border-radius: 5px;
+    height: 48px;
+    width: 280px;
+    border: none;
+    margin-right: 8px;
+}
+
+.form button {
+    font-family: 'Lato', sans-serif;
+    font-weight: 900px;
+    height: 48px;
+    width: 140px;
+    border-radius: 5px;
+    background-color: #E9BF33;
+    border: none;
+}
+
+.form button:hover {
+    cursor: pointer;
+}
+
+/* FIM SECTION 3 - FORM */
+
+
+
+/* FOOTER */
+footer {
+    background-color: #000;
+    margin: 0;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+
+
+.footer-text {
+    margin-bottom: 28px;
+    margin-left: 8%;
+}
+
+.footer-text h3 {
+    font-family: 'Nunito', sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    font-style: normal;
+    line-height: 27px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #FFFFFF;
+}
+
+.footer-text p {
+    font-family: 'Nunito', sans-serif;
+    font-weight: 400;
+    font-size: 13px;
+    font-style: normal;
+    line-height: 12px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #FFFFFF;
+}
+
+.footer-btn {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.footer-btn a {
+    text-decoration: none;
+}
+
+.footer-btn button {
+    width: 195px;
+    height: 38px;
+    left: 868px;
+    bottom: 128px;
+    background: #E9BF33;
+    border-radius: 5px;
+    border: none;
+    font-family: Nunito;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 16px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #FFFFFF;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.footer-btn button:hover {
+    cursor: pointer;
+}
+
+
+.footer-btn img {
+    color: #FFFFFF;
+    text-align: center;
+}
+
+#btnFooter1 {
+    margin-bottom: 25px;
+}
+
+#btnFooter2 img {
+    margin-left: 15px;
+}
+
+.footer-logos {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-right: 8%;
+}
+
+.logo-corebiz {
+    width: 100px;
+}
+
+.footer-logos p {
+    font-family: Nunito;
+    font-size: 11px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 14px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #E9BF33;
+    margin-bottom: 0;
+} 
+
+.footer-logos a {
+    width: 52.28px;
+    height: 18.72px;
+    left: 1495px;
+    bottom: 98px;
+    color: #FFFFFF;
+}
+
+/* FOOTER */
