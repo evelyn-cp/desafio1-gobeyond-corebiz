@@ -151,45 +151,48 @@ li.menu-link-dpd {
 
 .slider1 {
     height: 430px;
-    max-width: 100%;
 }
 
-#image {
-    position: absolute;
+.banner1 {
     height: 430px;
+    position: relative;
 }
-#image1 img {
+.banner1 img {
     width: 100%;
+    height: 100%;
 }
 
-#image1 p {
-    font-family: Nunito;
+.bannertext1 {
+    position: absolute;
+    font-family: 'Nunito', sans-serif;
     font-size: 30px;
     font-style: normal;
     font-weight: 700;
     line-height: 41px;
     letter-spacing: 0em;
     text-align: left;
-    z-index: 1;
-    color: red;
-    position: relative;
-    top: 0;
+    color: #fff;
+    left: 8%;
+    top: 35%;
+    width: 40%;
+    height: 147px;
 }
 
-
-
-.mySlides {
-    display:none
+.bannertext2 {
+    position: absolute;
+    font-family: 'Nunito', sans-serif;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 22px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #E9BF33;
+    transform: translate(-50%, -50%);
+    top: 60%;
+    left: 36%;
+    width: 55%;
 }
-
-.w3-left, .w3-right, .w3-badge {
-    cursor:pointer
-}
-
-.w3-badge {
-    height:13px;width:13px;padding:0
-}
-
 
 
 /* FIM SECTION 1 - SLIDER BANNER */
