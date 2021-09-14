@@ -7,6 +7,7 @@
 
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="splide-2.4.21/dist/css/splide.min.css">
+    <link rel="stylesheet" href="slider.css">
     
 
     <title>Desafio 1 | Go Beyond | Corebiz</title>
@@ -60,40 +61,152 @@
     <main>
         <section class="slider1">
             
-
-            <div class="splide">
-                <div class="splide__track">
-                    <ul class="splide__list">
-                        <li class="splide__slide" id="slide1">
-        
-                            <table>
-                                <tr>
-                                    <th class="slide1-img1"><img src="assets/images/img-banner1.svg"/></th>
-                                    <th class="slide1-img2"><img src="assets/images/img-banner2.svg"/></th>
-                                </tr>
-                            </table>
-                        </li>
-                        <li class="splide__slide">Slide 02</li>
-                        <li class="splide__slide">Slide 03</li>
-                    </ul>
+            <div class="w3-content w3-display-container">
+                <div class="mySlides" id="image1">
+                    <img src="assets/images/img-banner.png">
+                    <p>Olá, você quer fazer entrar de cabeça em desenvolvimento? <br>
+                    <span>front-end • back-end • mobile</span> </p>
                 </div>
-            </div>
+                <div>
+                <img class="mySlides" src="img_snow_wide.jpg">
+                </div>
+                <div>
+                <img class="mySlides" src="img_mountains_wide.jpg">
+                </div>
 
-
+                <div class="w3-center w3-container w3-section w3-large w3-text-white w3-display-bottommiddle" style="width:100%">
+                  <div class="w3-left w3-hover-text-khaki" onclick="plusDivs(-1)">&#10094;</div>
+                  <div class="w3-right w3-hover-text-khaki" onclick="plusDivs(1)">&#10095;</div>
+                  <span class="w3-badge demo w3-border w3-transparent w3-hover-white" onclick="currentDiv(1)"></span>
+                  <span class="w3-badge demo w3-border w3-transparent w3-hover-white" onclick="currentDiv(2)"></span>
+                  <span class="w3-badge demo w3-border w3-transparent w3-hover-white" onclick="currentDiv(3)"></span>
+                </div>
+              </div> 
+            
             
         </section>
+
+
 
         <section class="slider2">
             <div class="products">
                 <h2>Mais Vendidos</h2>
                 <img src="assets/images/img-line-products.svg"/>
-
-
-
-
-
             </div>
+
+
+<!--Slider Start-->
+<div class="div-slider">
+    <div id="splide" class="splide">
+        <div class="splide__track">
+            <ul class="splide__list">
+
+                <!--Slide 1-->
+                        <li class="splide__slide">
+                            <div class="slider-box">
+                                <div class="off"><div class="promo">OFF</div></div>
+                                <div class="img-box">
+                                    <img src="assets/images/img-sapato.svg" alt="SAPATO FLOATER PRETO" >
+                                </div>
+                                <p class="detalhes"> SAPATO FLOATER PRETO </p>
+                                <p class="classificacao">
+                                    <img src="assets/images/icon-estrela-cheia.svg"/>
+                                    <img src="assets/images/icon-estrela-vazia.svg"/>
+                                    <img src="assets/images/icon-estrela-vazia.svg"/>
+                                    <img src="assets/images/icon-estrela-vazia.svg"/>
+                                    <img src="assets/images/icon-estrela-vazia.svg"/>
+                                </p>
+                                <p class="preco1">de: R$ 299,00</p>
+                                <p class="preco2">Por: R$ 259,90</p>
+                                <p class="parcelamento">ou em 9x de R$ 28,87</p>
+                                <div class="carrinho">
+                                    <a href="#"> <img src="assets/images/icon-whatsapp.svg"/> COMPRAR</a>
+                                </div>
+                            </div>
+                        </li>
+
+                <!--Slide 2-->
+                <li class="splide__slide">
+                    <div class="slider-box">
+                        <div class="off"><div class="promo">OFF</div></div>
+                        <div class="img-box">
+                            <img src="assets/images/img-sapato.svg" alt="SAPATO FLOATER PRETO" >
+                        </div>
+                        <p class="detalhes"> SAPATO FLOATER PRETO </p>
+                        <p class="classificacao">
+                            <img src="assets/images/icon-estrela-cheia.svg"/>
+                            <img src="assets/images/icon-estrela-vazia.svg"/>
+                            <img src="assets/images/icon-estrela-vazia.svg"/>
+                            <img src="assets/images/icon-estrela-vazia.svg"/>
+                            <img src="assets/images/icon-estrela-vazia.svg"/>
+                        </p>
+                        <p class="preco1">de: R$ 299,00</p>
+                        <p class="preco2">Por: R$ 259,90</p>
+                        <p class="parcelamento">ou em 9x de R$ 28,87</p>
+                        <div class="carrinho">
+                            <a href="#"> <img src="assets/images/icon-whatsapp.svg"/> COMPRAR</a>
+                        </div>
+                    </div>
+                </li>
+
+                <!--Slide 3-->
+                <li class="splide__slide">
+                    <div class="slider-box">
+                        <div class="off"><div class="promo">OFF</div></div>
+                        <div class="img-box">
+                            <img src="assets/images/img-sapato.svg" alt="SAPATO FLOATER PRETO" >
+                        </div>
+                        <p class="detalhes"> SAPATO FLOATER PRETO </p>
+                        <p class="classificacao">
+                            <img src="assets/images/icon-estrela-cheia.svg"/>
+                            <img src="assets/images/icon-estrela-vazia.svg"/>
+                            <img src="assets/images/icon-estrela-vazia.svg"/>
+                            <img src="assets/images/icon-estrela-vazia.svg"/>
+                            <img src="assets/images/icon-estrela-vazia.svg"/>
+                        </p>
+                        <p class="preco1">de: R$ 299,00</p>
+                        <p class="preco2">Por: R$ 259,90</p>
+                        <p class="parcelamento">ou em 9x de R$ 28,87</p>
+                        <div class="carrinho">
+                            <a href="#"> <img src="assets/images/icon-whatsapp.svg"/> COMPRAR</a>
+                        </div>
+                    </div>
+                </li>
+
+                <!--Slide 4-->
+                <li class="splide__slide">
+                    <div class="slider-box">
+                        <div class="off"><div class="promo">OFF</div></div>
+                        <div class="img-box">
+                            <img src="assets/images/img-sapato.svg" alt="SAPATO FLOATER PRETO" >
+                        </div>
+                        <p class="detalhes"> SAPATO FLOATER PRETO </p>
+                        <p class="classificacao">
+                            <img src="assets/images/icon-estrela-cheia.svg"/>
+                            <img src="assets/images/icon-estrela-vazia.svg"/>
+                            <img src="assets/images/icon-estrela-vazia.svg"/>
+                            <img src="assets/images/icon-estrela-vazia.svg"/>
+                            <img src="assets/images/icon-estrela-vazia.svg"/>
+                        </p>
+                        <p class="preco1">de: R$ 299,00</p>
+                        <p class="preco2">Por: R$ 259,90</p>
+                        <p class="parcelamento">ou em 9x de R$ 28,87</p>
+                        <div class="carrinho">
+                            <a href="#"> <img src="assets/images/icon-whatsapp.svg"/> COMPRAR</a>
+                        </div>
+                    </div>
+                </li>
+
+
+            </ul>
+        </div>
+    </div>
+    </div>
+    <!--Slider End-->
+
         </section>
+
+
 
         <section class="form">
             <h2>Participe de nossas news com promoções e novidades!</h2>
@@ -136,8 +249,8 @@
     </footer>
 
 
-
+    <script src="banner.js"></script>
+    <script src="products.js"></script>
     <script src="splide-2.4.21/dist/js/splide.min.js"></script>
-    <script src="script.js"></script>
 </body>
 </html>

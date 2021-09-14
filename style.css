@@ -149,6 +149,46 @@ li.menu-link-dpd {
 
 /* SECTION 1 - SLIDER BANNER */
 
+.slider1 {
+    height: 430px;
+    max-width: 100%;
+}
+
+#image {
+    position: absolute;
+    height: 430px;
+}
+#image1 img {
+    width: 100%;
+}
+
+#image1 p {
+    font-family: Nunito;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 41px;
+    letter-spacing: 0em;
+    text-align: left;
+    z-index: 1;
+    color: red;
+    position: relative;
+    top: 0;
+}
+
+
+
+.mySlides {
+    display:none
+}
+
+.w3-left, .w3-right, .w3-badge {
+    cursor:pointer
+}
+
+.w3-badge {
+    height:13px;width:13px;padding:0
+}
 
 
 
